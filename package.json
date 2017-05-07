@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "/bin/bash google-chrome --no-sandbox --headless --hide-scrollbars --remote-debugging-port=9222 --disable-gpu &"
   },
   "author": "",
   "license": "ISC",
